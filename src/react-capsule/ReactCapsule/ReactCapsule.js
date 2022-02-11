@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 
+/*
+ * pjs dev to do:: abstract out this useEffect later leaving for mvp demo upcoming week 20220210 pjs dev todo:.
+ */
 function ReactCapsule() {
   const [items, setItems] = useState([]);
   const [filter, setFilter] = useState("");
